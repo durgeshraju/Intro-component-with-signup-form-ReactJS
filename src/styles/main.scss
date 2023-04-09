@@ -1,0 +1,25 @@
+@import 'base/colors';
+
+//---utility styles
+@import 'utilities/variables';
+@import 'utilities/mixins';
+
+//---functions
+@import 'base/function';
+
+//---base styles
+@import 'base/reset';
+@import 'base/typography';
+
+//---component styles
+@import 'components/buttons';
+@import 'components/inputs';
+
+@import 'sections/intro';
+
+//---layout styles
+@import 'layout/container';
+@import 'layout/header';
+@import 'layout/footer';
+
+//--------- By organizing your SCSS code in this way, you can keep your code modular and organized, making it easier to maintain and modify your styles in the future.

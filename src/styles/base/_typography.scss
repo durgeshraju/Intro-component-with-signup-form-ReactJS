@@ -1,0 +1,20 @@
+// Import Poppins font from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+$font-weights: (
+  "light": 300,
+  "regular": 400,
+  "medium": 500,
+  "semi-bold": 600,
+  "bold": 700,
+  "extra-bold": 800
+);
+
+p {
+  @include font-style("regular");
+}
+
+.small {
+  font-size: font-size(0.8);
+  @include font-style("regular", $height: 1.2);
+}

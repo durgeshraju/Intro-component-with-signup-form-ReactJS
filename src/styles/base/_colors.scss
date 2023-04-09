@@ -1,0 +1,42 @@
+// _colors.scss
+
+// ========================================
+// COLOR PALETTE STYLE GUIDE
+// ========================================
+
+// General Colors
+// --------------
+$white: #ffffff;         // White
+$black: #000000;         // Black
+$grey-light: #f7f7f7;    // Light Grey
+$grey: #cccccc;          // Grey
+$grey-dark: #666666;     // Dark Grey
+$red: #ff0000;           // Red
+$green: #00ff00;         // Green
+$blue: #0000ff;          // Blue
+
+// Background Colors
+// -----------------
+$bg-main: #FF7A7A;               // Main Background Color
+$bg-input: $white;               // Input Field Background Color
+$bg-button-primary: #5e72eb;     // Primary Button Background Color
+
+// Text Colors
+// ------------
+$text-primary: #172b4d;          // Primary Text Color
+$text-secondary: #8898aa;        // Secondary Text Color
+$text-placeholder: #adb5bd;      // Placeholder Text Color
+$text-on-button-primary: $white; // Primary Button Text Color
+
+// Form Border Color
+// -----------------
+$form-border: #e4e7eb;           // Input Field Border Color
+
+// Error and Success Colors
+// ------------------------
+$error: #f5365c;                // Error Color
+$success: #2dce89;              // Success Color
+
+// ========================================
+// END OF COLOR PALETTE STYLE GUIDE
+// ========================================

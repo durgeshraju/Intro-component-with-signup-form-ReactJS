@@ -1,0 +1,21 @@
+.intro-herounit {
+  @include flex-alignment(space-between, center);
+  position: $intro-herounit-pos;
+  height: $intro-herounit-height;
+  gap: $intro-herounit-gap;
+  @include padding(0 80px);
+
+  &__content {
+    color: $intro-herounit-content-text-color;    
+    flex-basis: 50%;
+
+    &__heading {
+      @include font-style("bold", $multiplier: 3.2, $height: 1.2);
+      @include margin(0 0 20px);
+    }
+
+    &__paragraph {
+      @include font-style("regular", $multiplier: 1.2, $height: 1.5);
+    }
+  }
+}
