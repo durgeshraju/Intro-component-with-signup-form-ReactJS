@@ -1,11 +1,4 @@
 .intro-herounit {
-  @include flex-alignment(space-between, center);
-  position: $intro-herounit-pos;
-  height: $intro-herounit-height;
-  gap: $intro-herounit-gap;
-  @include padding(0 80px);
-
-  &__content {
     color: $intro-herounit-content-text-color;    
     flex-basis: 50%;
 
@@ -17,5 +10,4 @@
     &__paragraph {
       @include font-style("regular", $multiplier: 1.2, $height: 1.5);
     }
-  }
 }
