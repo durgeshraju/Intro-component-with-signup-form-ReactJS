@@ -1,6 +1,13 @@
 body{
-    	
     background: url(../assets/img/bg-intro-desktop.png) no-repeat;
     background-size: cover;
     background-color: $bg-main;
+}
+
+#mainAppWrapper {
+    @include flex-alignment($justify: center, $align: center);
+    position:$main-app-container-pos-relative;
+    height:$main-app-container-height;
+    gap: $main-app-container-gridgap;
+    @include padding(0 80px);
 }
