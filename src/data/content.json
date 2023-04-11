@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "heading": "Learn to code by watching others",
+    "paragraph": "See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable."
+  },
+  "signupForm": {
+    "primaryButton": {
+      "boldText": "Try it free 7 days",
+      "normalText": "then $20/mo. thereafter",
+      "color": "primary"
+    },
+    "secondaryButton": {
+      "normalText": "then $20/mo. thereafter",
+      "color": "secondary"
+    },
+    "inputs": [
+      {
+        "label": "First Name",
+        "htmlFor": "fName",
+        "type": "text",
+        "name": "First-name",
+        "id": 1,
+        "placeholder": "First Name",
+        "isError": "First-name cannot be empty"
+      },
+      {
+        "label": "Last Name",
+        "htmlFor": "lName",
+        "type": "text",
+        "name": "Last-name",
+        "id": 2,
+        "placeholder": "Last Name",
+        "isError": "Last-name cannot be empty"
+      },
+      {
+        "label": "Email",
+        "htmlFor": "Email",
+        "type": "email",
+        "name": "Email",
+        "id": 3,
+        "placeholder": "Email Address",
+         "isError": "Looks like this is not an email"
+      },
+      {
+        "label": "Password",
+        "htmlFor": "Password",
+        "type": "password",
+        "name": "Password",
+        "id": 4,
+        "placeholder": "Password",
+        "isError": "Password cannot be empty"
+      }
+    ]
+  }
+}
