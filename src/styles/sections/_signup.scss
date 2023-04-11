@@ -1,0 +1,12 @@
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  &__control {
+    background-color: $white;    
+    @include padding(2rem); 
+    @include border-radius(10px);    
+    @include box-shadow(0px 5px 0px 0px rgba(66, 62, 62, 0.38));
+    @include margin(0 0 20px); 
+  }
+}
