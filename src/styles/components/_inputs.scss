@@ -1,0 +1,17 @@
+.signup-form {
+  &__input-container{
+    @include margin(0 0 20px);
+    position: relative;
+  }
+  &__label {
+      display: none;
+  }
+  &__input {
+    width: 100%;
+    @include font-style("semi-bold", $height: 1.2);
+    @include border-radius(10px);
+    @include padding(15px 30px);
+    border: $form-filed-border 1px solid;
+    color: $black;
+  }
+}
