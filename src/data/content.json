@@ -18,19 +18,19 @@
         "label": "First Name",
         "htmlFor": "fName",
         "type": "text",
-        "name": "First-name",
+        "name": "FirstName",
         "id": 1,
         "placeholder": "First Name",
-        "isError": "First-name cannot be empty"
+        "isError": "FirstName cannot be empty"
       },
       {
         "label": "Last Name",
         "htmlFor": "lName",
         "type": "text",
-        "name": "Last-name",
+        "name": "LastName",
         "id": 2,
         "placeholder": "Last Name",
-        "isError": "Last-name cannot be empty"
+        "isError": "LastName cannot be empty"
       },
       {
         "label": "Email",
@@ -49,6 +49,22 @@
         "id": 4,
         "placeholder": "Password",
         "isError": "Password cannot be empty"
+      }
+    ],
+    "terms": "By clicking the button, you are agreeing to our",
+    "termsAndServices": "Terms and Services"
+  },
+  "footer": {
+    "attribution": [
+      {
+      "challengeText": "Challenge by",
+      "challengeLink": "https://www.frontendmentor.io?ref=challenge",
+      "challengeTarget": "_blank",
+      "challengeLinkText": "Frontend Mentor",
+      "codedByText": "Coded by",
+      "codedByLink": "https://github.com/durgeshraju",
+      "codedByTarget": "_blank",
+      "codedByLinkText": "Durgesh Raju"
       }
     ]
   }
