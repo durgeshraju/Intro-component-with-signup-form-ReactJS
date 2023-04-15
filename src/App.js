@@ -1,13 +1,18 @@
 import './styles/main.css';
+import IntroHeroUnit from './components/IntroHeroUnit';
+import SignupForm from './components/SignupForm';
+import Footer from './components/Footer';
+import { Fragment } from 'react';
 
-function App() {
+const App = () => {
   return (
-    <div className="intro-herounit">
-      <div className="intro-herounit__content">
-        <h1 className="intro-herounit__content__heading">Learn to code by watching others</h1>
-        <p className="intro-herounit__content__paragraph">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
-      </div>
-    </div>
+  <Fragment>
+    <main id="mainAppWrapper">
+        <IntroHeroUnit />
+        <SignupForm />
+    </main>
+    <Footer />
+  </Fragment>
   );
 }
 
