@@ -1,13 +1,16 @@
 //--- Global Varibales
 
 // Define font family
-$body-font-famaily: 'Inter', sans-serif;
+$body-font-famaily: 'Open Sans', sans-serif;
+$heading-font-famaily: 'Merriweather', serif;
 
 // Define Main app container
 
 $main-app-container-pos-relative: relative;
 $main-app-container-height: 100vh;
 $main-app-container-gridgap: 50px;
+
+// Define 'Primary' and 'Secondary'
 
 //--- Local Varibales
 
@@ -17,3 +20,8 @@ $intro-herounit-pos: relative;
 $intro-herounit-height: 100vh;
 $intro-herounit-gap: 50px;
 $intro-herounit-content-text-color: $white;
+
+//--- Sign Up Form Section
+
+$signup-form-terms-and-services-text-color: $bg-main;
+$signup-form-terms-text-alignment: center;

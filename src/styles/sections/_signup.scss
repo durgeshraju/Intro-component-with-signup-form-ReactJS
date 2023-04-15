@@ -8,5 +8,27 @@
     @include border-radius(10px);    
     @include box-shadow(0px 5px 0px 0px rgba(66, 62, 62, 0.38));
     @include margin(0 0 20px); 
+  }  
+  &__error{
+    color: $error;    
+    @include padding(5px 0 0); 
+    @include flex-alignment($justify: right, $align: center);
+    @include font-style("semi-bold", $height: 1.2);   
+    &--icon{
+      position: absolute;
+      top: 0;
+      margin: 12px 15px;
+    } 
+  }
+  &__terms-text{
+    @include font-style("regular", $multiplier: 0.933, $height: 1.2);
+    color: $text-secondary;
+    text-align: $signup-form-terms-text-alignment;
+    margin-top: 20px;    
+  }
+  &__terms-and-services{
+      @include font-style("bold", $multiplier: 0.933, $height: 1.2);
+      color: $signup-form-terms-and-services-text-color
   }
 }
+

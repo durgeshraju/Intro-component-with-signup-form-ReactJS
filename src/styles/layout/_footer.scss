@@ -1,0 +1,13 @@
+.attribution {
+  color: $white;
+   @include font-style("regular", $multiplier: 0.933, $height: 1.2);
+    padding:20px 0 20px;
+    margin: 0 20px;
+    text-align: center;
+
+  a {
+    @include font-style("bold", $multiplier: 0.933, $height: 1.2);
+    color: $grey-light;   
+    text-decoration: underline;
+  }
+}

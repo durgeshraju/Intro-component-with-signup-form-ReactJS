@@ -3,13 +3,15 @@
     @include margin(0 0 20px);    
     @include border-radius(10px);    
     @include box-shadow(0px 5px 0px 0px rgba(66, 62, 62, 0.38));
+    @include font-style("semi-bold", $height: 1.5);    
+    cursor: pointer;   
     
   &--primary {
     background-color: $bg-button-primary;
     color: $white;
 
     &:hover {
-      background-color: lighten($bg-button-primary, 10%);
+      background-color: lighten($bg-button-primary, 5%);
     }
   }
 
@@ -18,7 +20,10 @@
     color: $white;
 
     &:hover {
-      background-color: lighten($bg-button-secondary, 10%);
+      background-color: lighten($bg-button-secondary, 5%);
     }
   }
+   @media (max-width: 1035px) {
+    @include padding(12px);
+   }
 }

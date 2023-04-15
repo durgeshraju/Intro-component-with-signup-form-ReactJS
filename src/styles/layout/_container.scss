@@ -1,13 +1,31 @@
+html, body {
+  height: 100%;
+}
 body{
     background: url(../assets/img/bg-intro-desktop.png) no-repeat;
     background-size: cover;
     background-color: $bg-main;
 }
-
 #mainAppWrapper {
     @include flex-alignment($justify: center, $align: center);
     position:$main-app-container-pos-relative;
     height:$main-app-container-height;
     gap: $main-app-container-gridgap;
-    @include padding(0 80px);
+    @include padding(0 80px);    
+    // for screens with width less than 1035px
+    @media (max-width: 1035px) {
+     @include padding(0 20px);
+    flex-direction: column;
+    height: 100%;
+        .intro-herounit{
+            text-align: center;            
+            &__heading {
+                @include font-style("bold", $multiplier: 2.5, $height: 1.2);
+                @include margin(20px 0 20px);
+            }
+            &__paragraph{
+                @include font-style("regular", $multiplier: 1);
+            }
+        }
+    }
 }

@@ -8,10 +8,16 @@
   }
   &__input {
     width: 100%;
-    @include font-style("semi-bold", $height: 1.2);
+    @include font-style("semi-bold", $multiplier: 0.933, $height: 1.2);
     @include border-radius(10px);
     @include padding(15px 30px);
     border: $form-filed-border 1px solid;
     color: $black;
+    &--error{
+       border: $error 1px solid;
+       &::placeholder{
+        color: $error;
+       }
+    }
   }
 }
